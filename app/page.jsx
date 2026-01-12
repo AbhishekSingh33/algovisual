@@ -1,4 +1,4 @@
-'use client';
+        'use client';
 
 import React, { useState, useEffect } from 'react';
 import { ALGORITHMS } from '../constants';
@@ -161,11 +161,11 @@ const FC = () => {
             </div>
 
             <div className="flex gap-4 shrink-0 overflow-x-auto pb-2 lg:pb-0">
-              <div className="bg-slate-950/80 backdrop-blur-xl px-5 lg:px-6 py-3 lg:py-4 rounded-2xl border border-slate-800 shadow-2xl min-w-[120px] lg:min-w-[140px]">
+              <div className="bg-slate-950/80 backdrop-blur-xl px-5 lg:px-6 py-3 lg:py-4 rounded-2xl border border-slate-800 shadow-2xl min-w-30 lg:min-w-35">
                 <span className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-1 lg:mb-2 opacity-60">Avg Time</span>
                 <span className="text-xl lg:text-2xl font-black font-mono text-indigo-400 tracking-tighter">{selectedAlgo.complexity.time}</span>
               </div>
-              <div className="bg-slate-950/80 backdrop-blur-xl px-5 lg:px-6 py-3 lg:py-4 rounded-2xl border border-slate-800 shadow-2xl min-w-[120px] lg:min-w-[140px]">
+              <div className="bg-slate-950/80 backdrop-blur-xl px-5 lg:px-6 py-3 lg:py-4 rounded-2xl border border-slate-800 shadow-2xl min-w-30 lg:min-w-35">
                 <span className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-1 lg:mb-2 opacity-60">Space</span>
                 <span className="text-xl lg:text-2xl font-black font-mono text-emerald-400 tracking-tighter">{selectedAlgo.complexity.space}</span>
               </div>

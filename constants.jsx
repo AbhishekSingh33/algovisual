@@ -55,7 +55,10 @@ export const ALGORITHMS = [
 
   // 10. OTHER
   { id: 'two-pointers', name: 'Two Pointers Technique', category: 'other', description: 'Optimized linear processing.', complexity: { time: 'O(n)', space: 'O(1)' } },
-  { id: 'sliding-window', name: 'Sliding Window', category: 'other', description: 'Subarray/Substring optimization.', complexity: { time: 'O(n)', space: 'O(1)' } }
+  { id: 'sliding-window', name: 'Sliding Window', category: 'other', description: 'Subarray/Substring optimization.', complexity: { time: 'O(n)', space: 'O(1)' } },
+
+
+
 ];
 
 export const GRID_ROWS = 15;
